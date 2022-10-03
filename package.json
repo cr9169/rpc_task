@@ -1,0 +1,21 @@
+{
+  "name": "rpc_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js", 
+  "scripts": {
+    "build": "tsc",
+    "start-server": "tsc && node ./dist/src/services/server.js",
+    "start-client": "tsc && node ./dist/src/services/client.js",
+    "test": "tsc && jest ./dist/server.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "jayson": "^4.0.0",
+    "rpc-typescript": "^0.1.0"
+  }
+}
